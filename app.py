@@ -10,7 +10,7 @@ st.write("Upload an image to detect birds using a fine-tuned YOLOv8 model.")
 
 # Load model — checks both Streamlit Cloud path and Google Drive path
 WEIGHTS_OPTIONS = [
-    "olov8_bird_detector_best.pt",                                              # Streamlit Cloud (repo root)
+    "best.pt",                                              # Streamlit Cloud (repo root)
     "/content/drive/MyDrive/yolov8_bird_detector_best.pt" # Google Drive / Colab
 ]
 
